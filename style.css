@@ -56,6 +56,10 @@ header {
 .banner-heading {
     font-size: 65px;
 }
+/* main style */
+main {
+    background-color: #f6f8ff;
+}
 
 /* action styles */
 .action {
@@ -111,4 +115,50 @@ header {
     color: rgba(37, 36, 50, 0.5);
     font-size: 20px;
     margin: 0;
+}
+
+/* newsletter style */
+
+.newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 70px 150px;
+    padding-bottom: 50px;
+}
+.nl-heading h1 {
+    font-size: 100px;
+    font-weight: bold;
+}
+.nl-form {
+        padding: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+label {
+    margin: 0 0 5px;
+}
+
+input {
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 20px 30px;
+    border: 1px solid rgba(214, 221, 237, 1);
+    border-radius: 10px;
+    outline: none;
+    width: 500px;
+}
+textarea {
+    margin-bottom: 20px;
+    padding: 20px 30px;
+    font-size: 20px;
+    height: 135px;
+    border: 1px solid rgba(214, 221, 237, 1);
+    border-radius: 10px;
+    outline: none;
+    resize: none;
 }
