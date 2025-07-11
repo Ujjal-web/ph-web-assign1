@@ -23,7 +23,14 @@
     border: none;
     padding: 20px 40px;
     border-radius: 10px;
+    transition-duration: 1s;
 
+}
+.primary-btn:hover {
+  background-color: yellow;
+  color: black;
+  font-size: larger;
+  transition-delay: 0.2s;
 }
 /* header styles */
 header {
