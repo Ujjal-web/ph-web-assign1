@@ -69,6 +69,7 @@ header {
 .action-title {
     color: #252432;
     font-size: 40px;
+    font-weight: bold;
     margin: 0;
 }
 .action-description {
@@ -77,4 +78,37 @@ header {
 }
 .action-right {
     border-radius: 50px;
+}
+
+/* productive user section */
+.productive-user {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 140px;
+    margin-right: 160px;
+    padding: 50px 140px;
+    border-radius: 25px;
+    background-color: rgba(78, 71, 255, 0.1);
+
+}
+.pu-title {
+    color: #252432;
+    font-weight: bold;
+    font-size: 40px;
+}
+.pu-items{
+    display: flex;
+    justify-content: space-around;
+}
+.pu-item-title{
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0;
+}
+.pu-item-description {
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 20px;
+    margin: 0;
 }
